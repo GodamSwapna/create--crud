@@ -1,0 +1,86 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+.head{
+    background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+    /* background-color:rgba(125, 202, 247, 0.794);
+    margin:0px solid rgb(226, 35, 35);
+    padding: 0px; */
+}
+input{
+    text-align: justify;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.myforms{
+    display: inline-flexbox;
+    /* position:absolute; */
+    margin: 0 auto;
+   padding: 20px;
+   background-color: #dfe6e9;
+   border-radius: 7px;
+   /* height:1px; */
+   /* background:rgb(0, 217, 255); */ 
+   
+}
+.formfield{
+    width: 25%;
+    padding: 11px 20px;
+    /* margin */
+
+}
+
+table{
+    width:100%;
+    /* height: max-content; */
+    /* background:blueviolet; */
+ }
+.tableHead{
+    background-color:rgb(10, 17, 48);
+    width:500px;
+    padding: 100px;
+    color:white;
+} 
+.tbody{
+    background-color: rgb(196, 155, 235);
+    width: 100%;
+    color:black;
+}  
+
+.myButton{
+    width: 20%;
+    background: color #00b894; ;
+    /* color: white; */
+    padding: 14px 20px;
+    margin: 0px;
+    border: black;
+}
+.myButton1{
+    padding: 14px 20px;
+    margin: 0px;
+    border: black;
+
+}
+ label,input {
+    /* display: block; */
+    /* width: 150px; */
+    /* float: left;  */
+    margin-bottom: 10px; 
+   } 
+   
+label {
+    text-align: right;
+    /* width: 10px; */
+    padding-right: 20px;
+   }
